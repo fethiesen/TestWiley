@@ -1,0 +1,12 @@
+Given I am a logged user
+When I click on the progress icon
+Then I can see the all the actions available on the progress bar
+
+Given I click on Discover your type option inside Know your self
+When the action is completed
+Then the progress bar show the icon completed beside the title and update the % number on the progress icon
+
+Given I click on Learn something new option inside Know your self
+When the action is completed
+Then the progress bar show the icon completed beside the title and update the % number on the progress icon
+© 2021 GitHub, Inc.
